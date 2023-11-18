@@ -1,0 +1,6 @@
+<h3>Posts List</h3>
+<ul>
+    {% for post in posts_list %}
+    <li><a href="/posts/{{ post.id }}">{{ post }}</a></li>
+    {% endfor %}
+</ul>
